@@ -32,7 +32,7 @@ target_include_directories(${target}
 # macro settings
 target_compile_definitions(${target}
   PUBLIC 
-    NO_WARN
+    ENABLE_GREET
     PI=3.1415926535
 )
 
